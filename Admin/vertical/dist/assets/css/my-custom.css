@@ -1,0 +1,21 @@
+.card-image {
+  width: 100%;
+}
+
+.card-text {
+  text-align: start;
+}
+
+.row-name {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+
+.my-member-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 300px;
+}
