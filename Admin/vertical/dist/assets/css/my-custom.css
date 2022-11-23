@@ -107,3 +107,22 @@ h4 {
   width: 100%;
   height: 100vh ;
 }
+
+@media (max-width: 991px) {
+  .card-height-1 {
+    height: auto;
+  }
+
+  .card-height-2 {
+    height: auto;
+  }
+
+  .card-height-3 {
+    height: auto;
+  }
+
+  .main-page-title {
+    text-align: center;
+    font-size: 40px;
+  }
+}
