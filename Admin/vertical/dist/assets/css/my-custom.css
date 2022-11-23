@@ -4,28 +4,84 @@
 
 .card-text {
   text-align: start;
+  margin-bottom: 20px;
 }
 
 .row-name {
+  color: #212529;
   font-size: 30px;
   text-align: center;
   margin-bottom: 20px;
   font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
 }
 
+.main-page-title-wrapped {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 60px;
+}
+
+.main-page-title__logo {
+  width: 100px;
+}
+
+.sidebar-logo-wrapped {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.sidebar__logo {
+  width: 80px;
+  /* background-image: url("../images/near-preview/near-logo.webp"); */
+}
+
+.main-page-title {
+  /* background: linear-gradient(to top, #4CA1AF, #2C3E50); */
+  color: #212529;
+  font-size: 50px;
+  margin-left: 20px;
+  margin-bottom: 9px;
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+
 .my-member-card {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
+}
+
+.my-member-card > img {
+  margin-bottom: 34px;
+}
+
+.my-member-card > h4 {
+  margin-bottom: 34px;
+}
+
+.card-title {
+  margin-bottom: 24px;
+  
 }
 
 .card-height-1 {
-  height: 300px;
+  height: 380px;
 }
 
 .card-height-2 {
-  height: 320px;
+  height: 360px;
 }
+
 .card-height-3 {
-  height: 340px;
+  height: 380px;
+}
+
+h4 {
+  margin-top: 0;
+}
+
+.content-iframe {
+  width: 100%;
+  height: 100vh ;
 }

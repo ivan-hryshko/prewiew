@@ -13,7 +13,7 @@ html {
   min-height: 100%; }
 
 body {
-  padding-bottom: 60px;
+  /* padding-bottom: 60px; */
   overflow-x: hidden; }
 
 .metismenu {
@@ -60,7 +60,8 @@ body {
   width: 100%; }
 
 .content-page {
-  margin-left: 240px;
+  /* margin-left: 240px; */
+  background-color: red !important;
   overflow: hidden;
   padding: 0 10px 5px 10px;
   min-height: 80vh;
