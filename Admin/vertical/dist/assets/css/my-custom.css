@@ -32,9 +32,16 @@
   display: flex;
   justify-content: center;
 }
+
 .sidebar__logo {
   width: 80px;
   /* background-image: url("../images/near-preview/near-logo.webp"); */
+}
+
+.sidebar-icon {
+  width: 16px;
+  fill: #95a4b5;
+  /* margin-right: 10px; */
 }
 
 .main-page-title {
