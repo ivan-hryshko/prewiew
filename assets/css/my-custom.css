@@ -115,6 +115,10 @@ h4 {
   height: 100vh ;
 }
 
+.my-navbar-custom {
+  right: auto;
+}
+
 @media (max-width: 991px) {
   .card-height-1 {
     height: auto;
