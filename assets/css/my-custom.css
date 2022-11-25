@@ -23,6 +23,16 @@
   font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
 }
 
+.my-topnav-menu-header {
+  display: none;
+  visibility: hidden;
+  color: white;
+  font-size: 30px;
+  margin-top: 20px;
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  background-color: #353c49;
+}
+
 .topnav-menu-text {
   display: flex;
   width: 100%;
@@ -119,6 +129,10 @@ h4 {
   right: auto;
 }
 
+.my-content-page {
+  margin-top: 0px;
+}
+
 @media (max-width: 991px) {
   .card-height-1 {
     height: auto;
@@ -168,5 +182,32 @@ h4 {
 
   .card-height-3 {
     height: 380px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  body {
+    overflow-x: hidden;
+    padding-bottom: 80px; }
+  .left-side-menu {
+    /* display: block !important; */
+    z-index: 10 !important; }
+  .main-page-title-wrapped {
+    margin-top: 80px;
+  }
+  .my-navbar-custom {
+    right: -30px;
+  }
+
+  .my-content-page {
+    margin-top: 77px !important;
+  }
+  .my-navbar-custom {
+    background-color: #353c49 !important;
+  }
+  .my-topnav-menu-header {
+    display: block !important;
+    visibility: visible;
+    background-color: #353c49;
   }
 }
