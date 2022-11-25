@@ -134,6 +134,16 @@ h4 {
   margin-top: 0px;
 }
 
+.my-404 h1 {
+  color: rgb(53, 60, 73);
+  text-shadow: rgb(0 0 0 / 30%) 5px 1px, rgb(138 138 138 / 20%) 10px 3px;
+}
+
+.my-404 a {
+  background-color: rgb(53, 60, 73);
+  border-color: rgb(53, 60, 73);
+}
+
 @media (max-width: 991px) {
   .card-height-1 {
     height: auto;
