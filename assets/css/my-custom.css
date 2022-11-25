@@ -207,7 +207,7 @@ h4 {
     margin-top: 80px;
   }
   .my-navbar-custom {
-    right: -30px;
+    right: 0px;
   }
 
   .my-content-page {
@@ -217,7 +217,9 @@ h4 {
     background-color: #353c49 !important;
   }
   .my-topnav-menu-header {
-    display: block !important;
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
     visibility: visible;
     background-color: #353c49;
   }
