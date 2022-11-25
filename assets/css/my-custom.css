@@ -142,3 +142,31 @@ h4 {
   }
 
 }
+
+@media (min-width: 1600px) {
+  .card-height-1 {
+    height: 340px;
+  }
+
+  .card-height-2 {
+    height: 340px;
+  }
+
+  .card-height-3 {
+    height: 360px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .card-height-1 {
+    height: 360px;
+  }
+
+  .card-height-2 {
+    height: 360px;
+  }
+
+  .card-height-3 {
+    height: 380px;
+  }
+}
