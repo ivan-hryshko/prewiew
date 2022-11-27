@@ -213,9 +213,11 @@ h4 {
   .my-content-page {
     margin-top: 77px !important;
   }
+
   .my-navbar-custom {
     background-color: #353c49 !important;
   }
+
   .my-topnav-menu-header {
     display: flex !important;
     justify-content: space-between;
@@ -223,4 +225,9 @@ h4 {
     visibility: visible;
     background-color: #353c49;
   }
+
+  .my-topnav-menu-header fe-menu{
+    color: white;
+  }
+
 }
