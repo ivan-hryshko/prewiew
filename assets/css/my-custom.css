@@ -222,12 +222,12 @@ h4 {
     display: flex !important;
     justify-content: space-between;
     align-items: center;
-    visibility: visible;
+    visibility: visible !important;
     background-color: #353c49;
   }
 
   .my-topnav-menu-header fe-menu{
-    color: white;
+    color: white !important;
   }
 
 }
